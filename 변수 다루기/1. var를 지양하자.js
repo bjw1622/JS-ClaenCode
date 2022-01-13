@@ -14,6 +14,8 @@ if (global === '전역') {
     console.log(global);
 }
 
+let letGlobal = '전역';
+
 if (letGlobal === '전역') {
     let letGlobal = '지역'
     console.log(letGlobal);
